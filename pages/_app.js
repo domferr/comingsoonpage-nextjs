@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import "../styles/style.scss"
+import Head from "next/head";
+import "../styles/globals.scss";
 
 function App({ Component, pageProps }) {
   return (
@@ -12,4 +12,4 @@ function App({ Component, pageProps }) {
   );
 }
 
-export default App
+export default App;
