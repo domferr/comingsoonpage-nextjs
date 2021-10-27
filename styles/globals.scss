@@ -1,4 +1,5 @@
 @import "footer";
+@import "fadeinimage";
 
 html,
 body,
@@ -50,27 +51,6 @@ body {
   margin: auto;
 }
 
-.image-container {
-  height: 25vw;
-  width: 30vw;
-  position: relative;
-  display: block;
-}
-
-.svg-container {
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-  position: relative;
-}
-
-.svg-container svg {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  right: 0;
-}
-
 .logo-container {
   position: absolute;
   top: -48px;
@@ -86,13 +66,4 @@ body {
 
 .logo {
   padding: 4px !important;
-}
-
-.fadein-image {
-  opacity: 1;
-  transition: opacity 300ms ease;
-}
-
-.opacity-0 {
-  opacity: 0;
 }
